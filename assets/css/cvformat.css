@@ -1,0 +1,241 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 726px;
+    background-color: #0A0000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -3;
+}
+
+/* ici c'est l'image background*/
+.back {
+    background-image: url("../img/Photoprofil.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+}
+
+/* Ici c'est la class personneinfo
+position du titre, font, etc*/
+.personneinfo {
+    max-height: 207px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 200px;
+}
+
+.personnename {
+    position: relative;
+    font-weight: 900;
+    line-height: 1.17;
+    color: var(--c-white);
+    text-align: center;
+    background-color: rgba(8, 63, 80, 0.562);
+    /* margin-bottom: 600px; */
+    box-sizing: border-box;
+}
+
+.personneposition {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--c-primary);
+    text-align: center;
+    margin-top: 10px;
+    line-height: normal;
+}
+
+@media (max-width: 375px) {
+    .left-slidebar {
+        justify-content: center;
+        width: 100%;
+        height: 40px;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        max-width: 50px;
+        margin-bottom: 250px;
+        position: -webkit-fixed;
+        position: fixed;
+        margin-top: 25px;
+        right: 0;
+        left: 0;
+        z-index: 9000;
+        margin: auto 0;
+        overflow: hidden;
+    }
+}
+
+#imagetop {
+    margin-top: 115px;
+}
+
+#imagetop2 {
+    margin-top: 115px;
+}
+/* Position du texte */
+
+.textpos {
+    position: relative;
+    text-align: center;
+}
+
+.left-slidebar {
+    
+    justify-content: center;
+    text-align: center;
+    margin-top: 118px;
+    margin-bottom: 65px;
+    background-color: rgb(28, 30, 31);
+}
+
+
+
+@media (max-width: 375px) {
+    .left-slidebar {
+        width: 100%;
+        margin: auto;
+        display: inline;
+        background-color: rgb(28, 30, 31);
+    }
+}
+
+/* mise en place du scroll*/
+.anyClass {
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+
+
+#imagetop::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+
+#imagetop::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(104, 140, 240, 0.3);
+}
+
+#imagetop::-webkit-scrollbar-thumb {
+    background-color: lightblue;
+    outline: 1px solid slategrey;
+}
+
+h3, h4 {
+    color: seashell;
+    text-align: center;
+}
+
+.form {
+    font-style: italic;
+    text-align: center;
+
+}
+
+hr {
+    width: 75%;
+    background-color: rgb(72, 141, 141);
+    margin-top: 25px;
+}
+
+.icosize {
+    font-size: 30px;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+}
+
+.bcolor {
+    background: rgb(28, 30, 31)
+}
+
+.services {
+    margin-top: 15px;
+    height: 250px;
+    width: 100%;
+}
+
+
+.PRservices {
+
+    float: right;
+}
+
+.Sname {
+    margin-top: 10px;
+    font-weight: 15px;
+    color: rgb(185, 248, 219);
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.Tname{
+    margin-left: 30px;
+    font-weight: 15px;
+    color: rgb(185, 248, 219);
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+@media (max-width: 320px) {
+    .menu4 {
+        justify-content: center;
+        margin-top: 0px;
+        padding: 0;
+    }
+}
+
+.menu4 {
+    margin-top: 50px;
+}
+
+/* .First{
+
+    margin-top: 55px;
+} */
+.Deux{
+    margin-top: 55px;
+}
